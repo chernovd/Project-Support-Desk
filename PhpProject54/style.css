@@ -1,0 +1,418 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	color: black;
+	font-size: 20px;
+	font-family:   Verdana, Trebuchet, 'Trebuchet MS';
+        background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+input[type=submit]{
+    width:300px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.header{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	color: white;
+        font-size: 1.2em;
+}
+
+.header a{
+    color: white;
+}
+
+.menu-list a:hover, .option a:hover{
+    background: purple;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.menu-list, .option{
+    width: calc(40% - 20px);
+    float: left;
+    height: 70px;
+}
+
+.menu-list{
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.option{
+    text-align: right;
+    margin-top: 30px;
+    padding-right: 20px;
+}
+
+.menu-list ul{
+    list-style-type: none;
+}
+
+.menu-list li{
+    display: inline-block;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+
+.logo{
+    width: 20%;
+    float: left;
+    height: 100px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.logo img{
+    width: 30%;
+    height: 100%;
+    margin-left: 75px;
+}
+
+.backgroundimg{
+    float: left;
+  
+}
+
+.aside{
+    float: left;
+    width: 35%;
+}
+
+.loginbox{
+    float: left;
+    width: calc(40% - 6px);
+    margin: 15% 30% 0% 30%;
+    border-radius: 10px;
+    /*border: 2px solid #9706c6;*/
+    padding-bottom: 10px;
+}
+
+.backgroundimg {
+    width:100%;
+    height: 800px;
+    background-image: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+.formheader{
+    width: 100%;
+    /*background-color: #9706c6;*/
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+.loginform, .signupform{
+    width: 100%;
+    color: black;
+    border-radius: 0px 0px 10px 10px;
+    margin-left: 15%;
+    
+}
+
+.loginform input, .signupform input {
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 5px;
+}
+
+.button{
+    width: 40%; 
+    margin-left: 15%;
+}
+
+.button:hover{
+    background-color: gray;  
+}
+
+.footer{
+    float: left;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 0.6em;
+    padding: 10px 0px;
+}
+
+.footersegm{
+    width: calc(50% - 200px);
+    float: left;
+    margin: 0px 100px;
+    text-align: left;
+}
+
+.footersegm a {
+    margin-bottom: 40px;
+}
+
+.copyright{
+    width: 100%;
+    height: 20px;
+    text-align: right;
+    font-size: 1em;
+    color: white;
+    float: left;
+}
+
+.copyright p{
+    margin-right: 20px;
+}
+
+.banner{
+    width: 100%;
+    float: left;
+    background-image: url(img/banner.jpg);
+    height: 300px;
+    color: white;
+    text-align: center;
+}
+
+.banner h1{
+    margin-top: 100px;
+}
+
+.faq{
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 20px;
+}
+
+.faqheader{
+    text-align: center;
+}
+
+.faqbox{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.question{
+    background-color: #f4f4f4;
+    width: 70%;
+    height: auto;
+    padding: 20px 10px;
+    font-size: 0.7em;
+    margin: 20px 15%;
+}
+
+.question h3{
+    margin-bottom: 10px;
+}
+
+.upgrade{
+    float: left;
+    width: 90%;
+    height: auto;
+    margin: 20px 5%;
+}
+
+.upgrademessage{
+    float: left;
+    width: 40%;
+    text-align: center;
+    font-size: 0.8em;
+    margin: 0px 0px 0px 15%;
+    padding-top: 2%;
+}
+
+.upgradebutton{
+    float: left;
+    width: 40%;
+    text-align: center;
+    font-size: 0.8em;   
+}
+
+.menu{
+    width: 100%;
+    float: left;
+}
+
+.box{
+    width: calc(33.33% - 60px);
+    margin: 10px 30px;
+    float: left;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+.box img{
+    width:40%;
+    height: 40%;
+}
+
+button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 0px 10px;
+    font-size: 1.2em;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: purple;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.profileicon{
+    width: 7%;
+    height: 60%;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.largebox{
+    width: calc(50% - 60px);
+}
+
+.largebox img{
+    width: 25%;
+    height: 25%;
+}
+
+.ticketsubmit, .ticketdisplay{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 50px;
+    float: left;
+}
+
+.ticketform{
+    width: 70%;
+    margin: 30px 15%; 
+    font-size: 0.8em;
+}
+
+.ticketform input[type=text], .ticketform textarea, .ticketform input[type=password]{
+    margin: 5px 0px;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    resize: both;
+    max-height: 50px;
+    max-width: 350px;
+    min-width: 300px;
+    min-height: 40px;
+}
+
+.ticketform input[type=radio]{
+    height: 20px;
+    width: 50px;
+}
+
+.ticketdisplay table{
+    width: 80%;
+    margin: 20px 10%;
+    border: none;
+}
+
+th{
+    background-color: #9706c6;
+}
+
+table a{
+    color: black;
+    font-size: 0.7em;
+}
+
+tr:nth-child(odd){
+    background-color: lightgray;
+}
+
+select{
+    width: 300px;
+    height: 40px;
+    margin: 15px 0px;
+    border-radius: 5px;
+}
+
+
+
+/**************************
+Mobile responsive settings
+**************************/
+
+@media only screen and (max-width: 700px){
+    .box, .largebox {
+        width:calc(100% - 20px);
+        margin: 30px 10px;
+    }
+    
+    body{
+        font-size: 10px;
+    }
+    
+    .header, .logo{
+        height: 70px;
+    }
+    
+    .menu-list, .option{
+        height: 40px;
+    }
+    
+    .logo img{
+        margin-left: 50px;
+        height: 70%;
+        margin-top: 10px;
+    }
+    
+    .question{
+        width: 90%;
+        margin-left: 0px;
+    }
+    
+    .ticketform{
+        width:80%;
+        margin-left: 10%;
+    }
+    
+    .ticketdisplay table{
+        font-size: 0.5em;
+    }
+    
+    .loginbox{
+        width:80%;
+        margin-left: 10%;
+        margin-top: 30%;
+    }
+    
+    .backgroundimg{
+        height: 500px;
+    }
+    
+    .footersegm{
+        margin-left: 50px;
+    }
+    
+    .ticketform input[type=radio]{
+    height: 10px;
+    width: 25px;
+}
+}
